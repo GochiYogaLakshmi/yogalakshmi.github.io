@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+*{
+   padding:0;
+   margin:0;
+   box-sizing:0;
+}
+body{
+   padding:0px 60px;
+   //background:gray;
+}
+/*Header Styles*/
+header{
+	background:url(../images/th.jpg) no-repeat fixed center;
+	background-size:100%;
+	height:80vh;
+}
+header nav>a{
+   float:left;
+   padding:20;
+   color:black;
+   text-decoration:none;
+   color:white;
+   font-weight:bold;
+   font-size:20px;
+   font-family: 'Roboto', sans-serif;
+}
+header nav>.Menu{
+   float:right
+}
+header nav{
+	overflow:hidden;
+	background:rgba(255,255,255,0.2);
+}
+nav .Menu ul>li{
+	display:inline-block;
+	padding:20px;
+}
+nav .Menu a{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px;
+}	
+header .flex{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	height:50vh;
+	align-items:center;
+	justify-content:center;
+}
+header .icons i:nth-child(1){
+	color:blue;
+	font-size:35px;
+}
+header .icons i:nth-child(2){
+	color:skyblue;
+	font-size:35px;
+}
+header .icons i:nth-child(3){
+	color:red;
+	font-size:35px;
+}
+header .flex h1{
+	font-size:50px;
+	color:white;
+	text-shadow:2px 3px 5px yellow;
+	font-family: 'Roboto', sans-serif;
+}
+header .flex h3{
+	font-size:35px;
+	color:white;
+	text-shadow:2px 3px 5px yellow;
+}
+header .flex p{
+	font-size:18px;
+	color:hotpink;
+	width:50%;
+	text-shadow:2px 3px 5px black;
+}
+/*ABOUT SECTION START*/
+#about .col{
+	width:50%;
+	float:left;
+}
+#about .row{
+	overflow:hidden;
+}
+#about .style{
+    padding:30px;
+}
+#about{
+	background:#ececec;
+	padding:30px;
+}
+#about h2,#about h6{
+	color:rgba(0,0,0,0.6);
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	text-align:justify;
+	margin-top:10px;
+}
+#about button{
+	border:none;
+	background:red;
+	padding:10px 20px;
+	color:white;
+	font-weight:bold;
+	margin-top:15px;
+	border-radius:10px;
+	box-shadow:1px 2px 3px yellow;
+	cursor:pointer;
+	font-size:20px;
+}
+#about button:hover{
+	
+	background:hardpink;
+}
+#about img{
+	transistion:all ease 0.5s;
+	
+}
+#about img:hover{
+	transform:translate(10px,10px);
+}
+/*services section*/
+#service .title{
+	text-align:center;
+	margin:20px;
+}
+#service h1{
+	font-size:50px;
+	color:red;
+	text-shadow:2px 3px 5px blue;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom:10px;
+}
+#service .row .col{
+	width:33.33%;
+float:left;
+}
+#service .row {
+	overflow:hidden;
+}
+#service .style{
+	border:3px solid #e2e2e2;
+	text-align:center;
+	padding:10px 20px;
+	border-radius:50px;
+	//box-shadow:2px 3px 5px blue;
+	margin:10px;
+}
+#service .style img{
+	height:100px;
+	width:120px;
+	border-radius:50%;
+	border:2px solid red;
+	display:block;
+	margin:15px auto;
+}
+#service {
+	padding:0px 60px;
+}
+#service h3 {
+	color:green;
+}
+#service p{
+	color:gray;
+	line-height:30px;
+	word-spacing:3px;
+}
+#service .style:hover{
+	box-shadow:2px 3px 5px blue ,-2px -3px  blue;
+}
+/*price Styles*/
+#price .col{
+	width:50%;
+	float:left;
+}
+#price .row{
+    overflow:hidden;
+}
+#price{
+	background:#ececec;
+	padding:30px 120px 30px 60px;
+}
+#price .row1 .col1{
+    width:50%;
+	float:left;
+}
+#price .row1{
+    overflow:hidden;
+	text-align:right;
+	line-height:30px;
+	margin-bottom:5px;
+	padding:-10;
+}
+#price .row1 .col2 {
+    width:50%;
+	float:left;
+}
+#price .row1 img{
+	width:100%;
+	height:120px;
+	padding-left:10px;	
+}
+#price .row1 img:hover{
+	border:5px solid hotpink;
+}
+footer .col{
+	width:33.33%;
+	float:left;
+}
+footer .row{
+	overflow:hidden;
+}
+footer{
+	background:#03111c;
+	padding:60px 90px;
+	color:red;
+	font-size:25px;
+}
+footer h6{
+	color:blue;
+}
+footer h4{
+	color:green;
+	margin-bottom:20px;
+}
+footer form input,footer form button{
+	padding:10px;
+}
+footer form button{
+	margin-left:-10px;
+	background:red;
+	color:white;
+	border:2px solid red;
+}
+footer form input:focus{
+	outline:none;
+}
+
+.copy{
+	padding:20px;
+	background:black;
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+.copy a{
+	color:yellow;
+	font-size:20px;
+	text-decoration:none;
+}
+
+	
+	
+
+
+	
+	
+
+
+	
+
+
+
